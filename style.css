@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+}
+
+#progress .times,
+.card-footer,
+.volume-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.volume-container i {
+  margin-right: 5px;
+}
+
+li.playing {
+  background-color: #9ad872;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #9ad872;
+  border-color: #9ad872;
+}
+
+#volume-bar::-webkit-slider-thumb {
+  background: #9ad872;
+}
+
+#volume-bar::-webkit-slider-runnable-track {
+  background: #ddd;
+}
